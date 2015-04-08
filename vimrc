@@ -9,7 +9,9 @@ set shiftwidth=2
 set expandtab
 set incsearch
 set hlsearch
+set switchbuf=split
 
 "80 width columns
 let &colorcolumn=join(range(81,999),",")
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
+highlight ColorColumn ctermbg=235 guibg=DarkGray
+
